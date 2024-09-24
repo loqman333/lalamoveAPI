@@ -330,8 +330,8 @@ add_action('woocommerce_payment_complete', 'place_lalamove_order_after_payment')
 
 function place_lalamove_order_after_payment()
 {
-    $apiKey = 'pk_test_8eeaca1e20edac46dae03aa3a72cece7';
-    $apiSecret = 'sk_test_DpjT16kM8LWyOocKrMRR31e7nb9z7ITVifD+e4GZVcIMM7nhHJARXroOL78zNGnz';
+    $apiKey = '';
+    $apiSecret = '';
     $time = time() * 1000;
 
     // Retrieve the Lalamove details from the session
